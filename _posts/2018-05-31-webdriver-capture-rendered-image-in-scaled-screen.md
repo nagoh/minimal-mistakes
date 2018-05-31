@@ -48,7 +48,7 @@ The above worked for me really well, and seemingly quite reliably. That was unti
 ### Setup
 Currently at work I use a 1920x1080 monitor as my primary display, and my laptop has a larger res (3200x1800). The laptop is almost impossible to use at this resolution unless you're using scaling to make all the things bigger. This is what i've got setup below:
 
-![Display Settigns]({{ "/assets/images/display-settings.png" | absolute_url }})
+![Display Settigns]({{ "/assets/images/display-settings.png" | relative_url }})
 
 ## Impact
 
