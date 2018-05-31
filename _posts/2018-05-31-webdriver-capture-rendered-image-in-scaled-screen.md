@@ -71,7 +71,7 @@ public string GetCaptchaImageFromPage()
     var element = _webDriver.FindElementById("imageToCrop");
 
     // get the resolution config value
-    int res = int.Parse(_configuration["screen:resolutionMagnification"]);
+    int res = 2; // i.e. 200%
 
      // create a rectangle so we can use this in a Crop() operation, with the scaling value
     var rectangleToCrop = new Rectangle(
